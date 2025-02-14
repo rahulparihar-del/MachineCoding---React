@@ -1,0 +1,49 @@
+.data-grid {
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #f4f4f4;
+  }
+  
+  table {
+    width: 80%;
+    border-collapse: collapse;
+    background: white;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    overflow: hidden;
+  }
+  
+  th, td {
+    padding: 12px;
+    text-align: left;
+    border: 1px solid #dddddd;
+  }
+  
+  th {
+    background: #000000;
+    color: white;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+  
+  td {
+    color: #333;
+  }
+  
+  tr:hover {
+    background: #f1f1f1;
+    transition: 0.3s;
+  }
+  
+  @media (max-width: 768px) {
+    table {
+      width: 100%;
+    }
+  
+    th, td {
+      padding: 8px;
+    }
+  }
+  

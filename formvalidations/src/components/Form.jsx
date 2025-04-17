@@ -90,6 +90,8 @@ const Form = ({ formData, setFormData, onSubmit }) => {
     }
   };
 
+  console.log(error)
+
   return (
     <div className="form-container">
       <form onSubmit={handleSubmit} className="form-grid">

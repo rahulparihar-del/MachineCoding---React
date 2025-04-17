@@ -90,7 +90,7 @@ const Form = ({ formData, setFormData, onSubmit }) => {
     }
   };
 
-  console.log(error)
+  console.log(error.dev)
 
   return (
     <div className="form-container">
